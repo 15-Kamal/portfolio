@@ -27,11 +27,11 @@ export const skillCategories = [
 /* ── Projects ───────────────────────────────────────────────── */
 export const projects = [
   {
-    title:       "",
-    description: "",
-    tech:        [""],
-    github:      "",
-    live:        "",
+    title:       "Kutira-Kushala (Self-Employment)",
+    description: "Built a full-stack Android application (Kotlin + Jetpack Compose) that digitises cottage industries - basket weavers, agarbatti rollers, papad makers - as searchable micro-factory profiles visible to bulk buyers.",
+    tech:        ["Kotlin","Jetpack Compose","Firebase","Gemini API","MVVM","Coroutines"],
+    github:      "https://github.com/15-Kamal/KutiraKushala",
+    live:        "https://appdistribution.firebase.dev/i/cc52cff11f8a44ad",
   },
   {
     title:       "Synthetic Data-Driven Testing for AI-Based Crop Recommendation Systems",
@@ -44,21 +44,21 @@ export const projects = [
     description: "A Computer Vision pipeline using TensorFlow and OpenCV to preprocess, augment, and classify images of various animal species.",
     tech:        ["Python", "TensorFlow / Keras", "OpenCV", "NumPy", "Matplotlib"],
     github:      "https://github.com/15-Kamal/ZooVision-Animal-Image-Classification",
-    live:        "https://zoovision-animal-image-classification-joias3onrnrvlbhioq725n.streamlit.app",
+    live:        "https://zoovision-ai.streamlit.app/",
   },
   {
     title:       "GuardianAI-Financial Fraud Detection",
     description: "A Machine Learning pipeline using Random Forest to classify fraudulent transactions within a highly imbalanced dataset of 1.75 million records.",
     tech:        ["Python", "Numpy", "Pandas", "Scikit-Learn", "Imbalanced-Learn"],
     github:      "https://github.com/15-Kamal/GuardianAI-Financial-Fraud-Detection",
-    live:        "https://guardianai-financial-fraud-detection-cx6glayvo7ayhmeyejeoh6.streamlit.app/",
+    live:        "https://guardianai-financial-fraud-detection.streamlit.app/",
   },
   {
     title:       "AutoPriceML-Vehicle Price Prediction",
     description: "A predictive Machine Learning pipeline designed to estimate the market value of vehicles based on their specifications.",
     tech:        ["Python", "Pandas", "Numpy", "Scikit-Learn"],
     github:      "https://github.com/15-Kamal/AutoPriceML-Vehicle-Price-Prediction",
-    live:        "https://autopriceml-vehicle-price-prediction-idtdxpsl2r7a3mpubwt29k.streamlit.app",
+    live:        "https://autopriceml-vehicle-price-prediction.streamlit.app/",
   },
   {
     title:       "Portfolio",
@@ -87,7 +87,8 @@ export const experience = [
     bullets: [
       "Learnt Kotlin programming fundamentals, Generative AI basics, and AI agent concepts.",
       "Built Android applications and completed practical development tasks.",
-      "The internship helped me gain practical knowledge in Android app development, Kotlin programming, and Generative AI.",
+      "Built Kutira-Kushala, a full-stack Android app (Kotlin + Jetpack Compose) that empowers cottage industry entrepreneurs.",
+      "Key technical work: Firebase Auth (Email + Phone OTP), Firestore with role-based security rules, Gemini 1.5 Flash API for AI-generated business content, real-time Capacity Meter, Direct Connect phone + SMS integration, and owner dashboard with MVVM + StateFlow.",
     ],
   },
 ];
