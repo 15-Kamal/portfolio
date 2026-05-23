@@ -78,7 +78,7 @@ export default function Navbar() {
           })}
 
           <a
-            href="/resume.pdf"
+            href="/kamal_resume.pdf"
             target="_blank"
             className="ml-4 text-sm px-4 py-2 border border-accent text-accent rounded-lg hover:bg-accent hover:text-white transition-all duration-200"
           >
