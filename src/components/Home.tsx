@@ -31,7 +31,7 @@ export default function Home() {
         {/* Left: text */}
         <motion.div variants={fadeLeft}>
           <motion.p variants={fadeUp} className="font-mono text-accent text-sm mb-2">
-            Hi there, I'm
+            Hi, I'm
           </motion.p>
 
           <motion.h1 variants={fadeUp} className="text-5xl md:text-6xl font-bold tracking-tight text-white mb-3">

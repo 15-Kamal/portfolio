@@ -1,6 +1,6 @@
 export const personalInfo = {
   name:         "KAMAL P",
-  role:         "ML Engineer | Full Stack Developer",
+  role:         "Aspiring Machine Learning Engineer",
   bio:          "Passionate About Applying Machine Learning Technologies to Build Innovative Solutions🚀. My journey in coding started out of curiosity and has grown into a mission to continuously learn, build, and contribute to impactful projects.",
   email:        "kamalpkamalp435@gmail.com",
   github:       "https://github.com/15-Kamal",
@@ -12,15 +12,15 @@ export const personalInfo = {
 export const skillCategories = [
   {
     category: "Frontend",
-    items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "HTML | CSS", "Kotlin"],
+    items: ["HTML", "CSS", "Javascript", "React.js", "Next.js", "Kotlin"],
   },
   {
     category: "Backend",
-    items: ["Node.js", "Python", "Express", "MongoDB", "MySQL | PostgreSQL", "Fast APIs", "REST APIs"],
+    items: ["Python", "Node.js", "MySQL", "MongoDB", "Firebase", "Fast APIs"],
   },
   {
     category: "Tools & Libraries",
-    items: ["Git", "CI/CD", "Android Studio", "Google-AI Studio", "AWS | Cloud", "NumPy", "Pandas", "TensorFlow", "Scikit-learn"],
+    items: ["Google-AI Studio","Android Studio", "Google Cloud", "Git", "NumPy", "Pandas", "TensorFlow", "Scikit-learn"],
   },
 ];
 
@@ -28,21 +28,21 @@ export const skillCategories = [
 export const projects = [
   {
     title:       "Kutira-Kushala (Self-Employment)",
-    description: "Built a full-stack Android application (Kotlin + Jetpack Compose) that digitises cottage industries - basket weavers, agarbatti rollers, papad makers - as searchable micro-factory profiles visible to bulk buyers.",
+    description: "A full-stack Android application (Kotlin + Jetpack Compose) that digitises cottage industries - basket weavers, agarbatti rollers, papad makers - as searchable micro-factory profiles visible to bulk buyers.",
     tech:        ["Kotlin","Jetpack Compose","Firebase","Gemini API","MVVM","Coroutines"],
     github:      "https://github.com/15-Kamal/KutiraKushala",
     live:        "https://appdistribution.firebase.dev/i/cc52cff11f8a44ad",
   },
   {
     title:       "Synthetic Data-Driven Testing for AI-Based Crop Recommendation Systems",
-    description: "A Flask-based AI system that compares crop prediction performance using real agricultural data versus synthetically generated data.",
-    tech:        ["Python", "Flask", "Scikit-learn", "Pandas", "HTML",],
+    description: "A Machine Learning model for precision agriculture, applying synthetic data-driven validation for robustness.",
+    tech:        ["Python", "Scikit-learn", "Pandas", "HTML",],
     github:      "https://github.com/15-Kamal/Synthetic-Data-Driven-Testing-for-AI-Based-Crop-Recommendation-Systems",
   },
   {
     title:       "ZooVision-Animal Image Classification",
     description: "A Computer Vision pipeline using TensorFlow and OpenCV to preprocess, augment, and classify images of various animal species.",
-    tech:        ["Python", "TensorFlow / Keras", "OpenCV", "NumPy", "Matplotlib"],
+    tech:        ["Python", "TensorFlow", "OpenCV", "NumPy", "Matplotlib"],
     github:      "https://github.com/15-Kamal/ZooVision-Animal-Image-Classification",
     live:        "https://zoovision-ai.streamlit.app/",
   },
@@ -62,8 +62,8 @@ export const projects = [
   },
   {
     title:       "Portfolio",
-    description: "A professional portfolio built with Next.js , Framer Motion and Lenis smooth scroll.",
-    tech:        ["Next.js", "Framer Motion", "Lenis", "Tailwind"],
+    description: "A responsive professional portfolio using Next.js, Framer Motion, and Lenis smooth scrolling",
+    tech:        ["Next.js", "Framer Motion", "Lenis", "TailwindCSS"],
     github:      "https://github.com/15-Kamal/portfolio",
   },
 ];

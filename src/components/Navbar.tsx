@@ -132,7 +132,7 @@ export default function Navbar() {
                 );
               })}
               <a
-                href="/resume.pdf"
+                href="/kamal_resume.pdf"
                 target="_blank"
                 onClick={() => setMenuOpen(false)}
                 className="mx-4 mt-2 px-4 py-3 border border-accent text-accent rounded-lg text-sm text-center hover:bg-accent hover:text-white transition-all duration-200"
