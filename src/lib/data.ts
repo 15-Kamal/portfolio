@@ -8,6 +8,15 @@ export const personalInfo = {
   profileImage: "/Profile.jpg",
 };
 
+/* ── Education ──────────────────────────────────────────────── */
+export const education = [
+  {
+    degree:      "B.E in Computer Science & Engineering",
+    institution: "Sri Venkateshwara College of Engineering, Bengaluru",
+    period:      "2022 – 2026",
+  },
+];
+
 /* ── Skills (grouped by category) ─────────────────────────── */
 export const skillCategories = [
   {
@@ -29,36 +38,29 @@ export const projects = [
   {
     title:       "Kutira-Kushala (Self-Employment)",
     description: "A full-stack Android application (Kotlin + Jetpack Compose) that digitises cottage industries - basket weavers, agarbatti rollers, papad makers - as searchable micro-factory profiles visible to bulk buyers.",
-    tech:        ["Kotlin","Jetpack Compose","Firebase","Gemini API","MVVM","Coroutines"],
+    tech:        ["Kotlin","Jetpack Compose","Firebase","Gemini API","MVVM"],
     github:      "https://github.com/15-Kamal/KutiraKushala",
     live:        "https://appdistribution.firebase.dev/i/cc52cff11f8a44ad",
+  },
+  {
+    title:       "GuardianAI-Financial Fraud Detection",
+    description: "A Machine Learning pipeline using Random Forest to classify fraudulent transactions within a highly imbalanced dataset of 1.75 million records.",
+    tech:        ["Python", "Flask", "Scikit-Learn", "React.js"],
+    github:      "https://github.com/15-Kamal/GuardianAI-Financial-Fraud-Detection",
+    live:        "https://guardianai-financial-fraud-detection.onrender.com",
+  },
+  {
+    title:       "ZooVision-Animal Image Classification",
+    description: "A Computer Vision pipeline using TensorFlow and OpenCV to preprocess, augment, and classify images of various animal species.",
+    tech:        ["Python", "OpenCV", "NumPy", "Matplotlib", "Jupyter"],
+    github:      "https://github.com/15-Kamal/ZooVision-Animal-Image-Classification",
+    live:        "https://zoovision-ai.streamlit.app/",
   },
   {
     title:       "Synthetic Data-Driven Testing for AI-Based Crop Recommendation Systems",
     description: "A Machine Learning model for precision agriculture, applying synthetic data-driven validation for robustness.",
     tech:        ["Python", "Scikit-learn", "Pandas", "HTML",],
     github:      "https://github.com/15-Kamal/Synthetic-Data-Driven-Testing-for-AI-Based-Crop-Recommendation-Systems",
-  },
-  {
-    title:       "ZooVision-Animal Image Classification",
-    description: "A Computer Vision pipeline using TensorFlow and OpenCV to preprocess, augment, and classify images of various animal species.",
-    tech:        ["Python", "TensorFlow", "OpenCV", "NumPy", "Matplotlib"],
-    github:      "https://github.com/15-Kamal/ZooVision-Animal-Image-Classification",
-    live:        "https://zoovision-ai.streamlit.app/",
-  },
-  {
-    title:       "GuardianAI-Financial Fraud Detection",
-    description: "A Machine Learning pipeline using Random Forest to classify fraudulent transactions within a highly imbalanced dataset of 1.75 million records.",
-    tech:        ["Python", "Numpy", "Pandas", "Scikit-Learn", "Imbalanced-Learn"],
-    github:      "https://github.com/15-Kamal/GuardianAI-Financial-Fraud-Detection",
-    live:        "https://guardianai-financial-fraud-detection.streamlit.app/",
-  },
-  {
-    title:       "AutoPriceML-Vehicle Price Prediction",
-    description: "A predictive Machine Learning pipeline designed to estimate the market value of vehicles based on their specifications.",
-    tech:        ["Python", "Pandas", "Numpy", "Scikit-Learn"],
-    github:      "https://github.com/15-Kamal/AutoPriceML-Vehicle-Price-Prediction",
-    live:        "https://autopriceml-vehicle-price-prediction.streamlit.app/",
   },
   {
     title:       "Portfolio",
