@@ -11,7 +11,7 @@ export const personalInfo = {
 /* ── Education ──────────────────────────────────────────────── */
 export const education = [
   {
-    degree:      "B.E in Computer Science & Engineering",
+    degree:      "B.E - Computer Science & Engineering",
     institution: "Sri Venkateshwara College of Engineering, Bengaluru",
     period:      "2022 – 2026",
   },
