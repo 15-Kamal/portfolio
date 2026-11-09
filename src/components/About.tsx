@@ -99,7 +99,7 @@ export default function About() {
             {/* Stat cards */}
             <div className="grid grid-cols-2 gap-4">
               <StatCard value="3+"  label="Years of experience in coding" />
-              <StatCard value="4+"  label="Projects" />
+              <StatCard value="2+"  label="Projects" />
             </div>
           </motion.div>
           {/* ── END RIGHT ─────────────────────────────────────── */}
